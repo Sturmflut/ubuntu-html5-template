@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Application Name
 Comment=Short description of application
-Exec=webapp-container $@ --www=www
+Exec=ubuntu-html5-app-launcher $@ --www=www
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true
