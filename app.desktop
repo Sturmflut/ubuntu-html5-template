@@ -1,8 +1,9 @@
 [Desktop Entry]
 Name=Application Name
 Comment=Short description of application
-Exec=ubuntu-html5-app-launcher $@ --www=www
+Exec=webapp-container www/index.html
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true
 Icon=./icon.png
+X-Ubuntu-Supported-Orientations=landscape,portrait
